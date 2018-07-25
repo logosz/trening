@@ -3,8 +3,8 @@ driver = Selenium::WebDriver.for :firefox
 
 # Given(/^I Open the facebook homepage$/) do
 Given(/^I Open the crossover admin homepage$/) do
-  # driver.navigate.to "https://facebook.com/"
-  driver.navigate.to "http://localhost:2368/ghost"
+  driver.navigate.to "https://facebook.com/"
+  # driver.navigate.to "http://localhost:2368/ghost"
 end
 
 Given(/^Given I enter username $/) do
